@@ -1,0 +1,11 @@
+Windows Kullacısıysanız -> win-uninstall.bat dosyasını yönetici olarak çalıştırınız.
+
+Linux Kullanıcısıysanız -> uninstall.sh dosyasını çalıştırınız çalıştırmak için Dosya dizininde
+Uçbirim (Terminal) çalıştırınız. Ardından "chmod +x uninstall.sh" komutunu girip dosyaya yazma iznini veriniz.
+dosyayı çalıştırmak için ./uninstall.sh yazıp dosyası çalıştırınız.
+
+If you are a Windows User -> run the win-uninstall.bat file as administrator.
+
+If you are a Linux User -> run the uninstall.sh file in the File directory to run
+Run the terminal. Then enter the command "chmod +x uninstall.sh" and give write permission to the file.
+To run the file, type ./uninstall.sh and run the file.

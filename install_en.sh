@@ -1,0 +1,1 @@
+sudo cp INSTALL/EN/calc /usr/bin/

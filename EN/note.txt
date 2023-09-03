@@ -1,0 +1,3 @@
+NOTE: You can change and use the codes as you wish. The codes are open source.
+NOTE2: The original version of the codes was written by LinuxUsersLinuxMint.
+GITHUB: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
