@@ -34,4 +34,8 @@ if command=="exit":
    exit()
 if command=="help":
    print("Python calc Help")
-   print("\n Command: calc , about , help , exit")
+   print("\n Command: calc , about , help , exit , git-address , web-site")
+if command=="git-address":
+   print("Github Link: https://github.com/LinuxUsersLinuxMint")
+if command=="web-site":
+   print("linuxuserslinuxmint.github.io")
