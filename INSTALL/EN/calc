@@ -19,15 +19,15 @@ if command=="calc":
     Divide=float(number1)/float(number2)
     Percentage=float(number1)%float(number2)
     if process=="collect": 
-       print("SONUC=", format(collect))  
+       print("{0} + {1} = {2}". format(number1,number2,collect))  
     if process=="Extraction":
-       print("SONUC=", format(Extraction))
+       print("{0} - {1} = {2}". format(number1,number2,Extraction))
     if process=="Impact":
-       print("SONUC=", format(Impact))
+       print("{0} * {1} = {2}". format(number1,number2,Impact))
     if process=="Divide":
-       print("SONUC=", format(Divide))
+       print("{0} / {1} = {2}". format(number1,number2,Divide))
     if process=="Percentage":
-       print("SONUC=", format(Percentage))
+       print("{0} % {1} = {2}". format(number1,number2,Percentage))
 if command=="about":
    print(about)
 if command=="exit":
@@ -40,4 +40,4 @@ if command=="git-address":
 if command=="web-site":
    print("linuxuserslinuxmint.github.io")
 if command=="ver":
-   print("Version: 0.1.2 (Last Updated September 4 , 2023 , 22:21)")
+   print("Version: 0.1.5 (Last Updated September 5 , 2023 , 21:59)")

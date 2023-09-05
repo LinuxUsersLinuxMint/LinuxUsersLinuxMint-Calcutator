@@ -19,15 +19,15 @@ if command=="calc":
     bol=float(sayi1)/float(sayi2)
     yuzde=float(sayi1)%float(sayi2)
     if islem=="top": 
-       print("SONUC=", format(top))  
+       print("{0} + {1} = {2}". format(sayi1,sayi2,top))  
     if islem=="cık":
-       print("SONUC=", format(cık))
+       print("{0} - {1} = {2}". format(sayi1,sayi2,cık))
     if islem=="carp":
-       print("SONUC=", format(carp))
+       print("{0} * {1} = {2}". format(sayi1,sayi2,carp))
     if islem=="bol":
-       print("SONUC=", format(bol))
+       print("{0} / {1} = {2}". format(sayi1,sayi2,bol))
     if islem=="yuzde":
-       print("SONUC=", format(yuzde))
+       print("{0} % {1} = {2}". format(sayi1,sayi2,yuzde))
 if command=="about":
    print(about)
 if command=="exit":
@@ -40,4 +40,4 @@ if command=="git-address":
 if command=="web-site":
    print("linuxuserslinuxmint.github.io")
 if command=="ver":
-   print("Sürüm: 0.1.2 (Son Güncellenme Tarihi 4 Eylül , 2023 , 22:21)")
+   print("Sürüm: 0.1.5 (Son Güncellenme Tarihi 5 Eylül , 2023 , 21:59)")
