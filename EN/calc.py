@@ -20,26 +20,30 @@ if command=="calc":
     Percentage=float(number1)%float(number2)
     if process=="collect": 
        print("{0} + {1} = {2}". format(number1,number2,collect))  
-    if process=="Extraction":
+    elif process=="Extraction":
        print("{0} - {1} = {2}". format(number1,number2,Extraction))
-    if process=="Impact":
+    elif process=="Impact":
        print("{0} * {1} = {2}". format(number1,number2,Impact))
-    if process=="Divide":
+    elif process=="Divide":
        print("{0} / {1} = {2}". format(number1,number2,Divide))
-    if process=="Percentage":
+    elif process=="Percentage":
        print("{0} % {1} = {2}". format(number1,number2,Percentage))
+    else:
+       print("Invalid Proccess!")
 if command=="about":
    print(about)
-if command=="exit":
+elif command=="exit":
    exit()
-if command=="help":
+elif command=="help":
    print("Python calc Help")
    print("\n Command: calc , about , help , exit , git-address , web-site , ver , licence")
-if command=="git-address":
+elif command=="git-address":
    print("Github Link: https://github.com/LinuxUsersLinuxMint")
-if command=="web-site":
+elif command=="web-site":
    print("linuxuserslinuxmint.github.io")
-if command=="ver":
-   print("Version: 0.1.5.2 (Last Updated September 6 , 2023 , 18:10)")
-if command=="licence":
+elif command=="ver":
+   print("Version: 0.1.5.5 (Last Updated September 6 , 2023 , 22:22)")
+elif command=="licence":
    print("This Software is protected under the GPL2 license")
+else:
+   print("Invalid Command!")

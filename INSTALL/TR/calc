@@ -20,26 +20,30 @@ if command=="calc":
     yuzde=float(sayi1)%float(sayi2)
     if islem=="top": 
        print("{0} + {1} = {2}". format(sayi1,sayi2,top))  
-    if islem=="cık":
+    elif islem=="cık":
        print("{0} - {1} = {2}". format(sayi1,sayi2,cık))
-    if islem=="carp":
+    elif islem=="carp":
        print("{0} * {1} = {2}". format(sayi1,sayi2,carp))
-    if islem=="bol":
+    elif islem=="bol":
        print("{0} / {1} = {2}". format(sayi1,sayi2,bol))
-    if islem=="yuzde":
+    elif islem=="yuzde":
        print("{0} % {1} = {2}". format(sayi1,sayi2,yuzde))
+    else:
+       print("Geçersiz İşlem")
 if command=="about":
    print(about)
-if command=="exit":
+elif command=="exit":
    exit()
-if command=="help":
+elif command=="help":
    print("Python calc Help")
    print("\n Command: calc , about , help , exit , git-address , web-site , ver , licence")
-if command=="git-address":
+elif command=="git-address":
    print("Github Link: https://github.com/LinuxUsersLinuxMint")
-if command=="web-site":
+elif command=="web-site":
    print("linuxuserslinuxmint.github.io")
-if command=="ver":
-   print("Sürüm: 0.1.5.2 (Son Güncellenme Tarihi 6 Eylül , 2023 , 18:10)")
-if command=="licence":
+elif command=="ver":
+   print("Sürüm: 0.1.5.5 (Son Güncellenme Tarihi 6 Eylül , 2023 , 22:22)")
+elif command=="licence":
    print("This Software is protected under the GPL2 license")
+else:
+   print("Geçersiz Komut")
