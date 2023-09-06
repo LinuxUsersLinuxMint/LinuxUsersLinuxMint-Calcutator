@@ -1,5 +1,5 @@
 #!/usr/bin/bash
 
-sudo rm rf - /usr/bin/calc
+sudo cp INSTALL/TR/calc /usr/bin/
 
 # Changes will be made to the uninstall files for Linux.

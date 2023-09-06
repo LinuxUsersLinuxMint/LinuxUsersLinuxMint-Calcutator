@@ -1,1 +1,0 @@
-sudo cp INSTALL/TR/calc /usr/bin/
