@@ -1,1 +1,0 @@
-copy INSTALL/EN/calc C:\Users\%users%\desktop

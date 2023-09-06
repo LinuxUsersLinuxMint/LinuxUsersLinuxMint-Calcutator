@@ -1,1 +1,0 @@
-copy INSTALL/TR/calc C:\Users\%users%\desktop
