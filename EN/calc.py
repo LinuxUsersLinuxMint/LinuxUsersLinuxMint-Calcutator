@@ -6,7 +6,7 @@
 "A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint"
 
 command=input('calc> ')
-about= "Python Calcutator CLI(Command Line Interface) LICENCE=GPL"
+about= "Python Calcutator CLI(Command Line Interface) LICENCE=GPL2"
 if command=="calc":
     print("calc> Transactions You Can Enter: ")
     print("collect\nExtraction\n\Impact\nDivide\nPercentage\nabout")

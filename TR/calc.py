@@ -6,7 +6,7 @@
 "A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint"
 
 command=input('calc> ')
-about= "Python Hesap Makinesi CLI(Command Line Interface / Komut Satırı Arayüzü) LICENCE=GPL"
+about= "Python Hesap Makinesi CLI(Command Line Interface / Komut Satırı Arayüzü) LICENCE=GPL2"
 if command=="calc":
     print("calc> Girebileceğiniz işlemler: ")
     print("top\ncık\n\carp\nbol\nyuzde\nabout")
