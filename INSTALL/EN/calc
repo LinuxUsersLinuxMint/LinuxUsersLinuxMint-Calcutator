@@ -34,10 +34,12 @@ if command=="exit":
    exit()
 if command=="help":
    print("Python calc Help")
-   print("\n Command: calc , about , help , exit , git-address , web-site , ver")
+   print("\n Command: calc , about , help , exit , git-address , web-site , ver , licence")
 if command=="git-address":
    print("Github Link: https://github.com/LinuxUsersLinuxMint")
 if command=="web-site":
    print("linuxuserslinuxmint.github.io")
 if command=="ver":
-   print("Version: 0.1.5 (Last Updated September 5 , 2023 , 21:59)")
+   print("Version: 0.1.5.2 (Last Updated September 6 , 2023 , 18:10)")
+if command=="licence":
+   print("This Software is protected under the GPL2 license")
