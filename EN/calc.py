@@ -19,13 +19,13 @@ if command=="calc":
     multiplication=float(number1)*float(number2)
     division=float(number1)/float(number2)
     Percentage=float(number1)%float(number2)
-    if process=="collect": 
+    if process=="Addition": 
        print("{0} + {1} = {2}". format(number1,number2,addition))  
-    elif process=="Extraction":
+    elif process=="Subraction":
        print("{0} - {1} = {2}". format(number1,number2,subraction))
-    elif process=="Impact":
+    elif process=="Multiplication":
        print("{0} * {1} = {2}". format(number1,number2,multiplication))
-    elif process=="Divide":
+    elif process=="Division":
        print("{0} / {1} = {2}". format(number1,number2,division))
     elif process=="Percentage":
        print("{0} % {1} = {2}". format(number1,number2,Percentage))
