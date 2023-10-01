@@ -11,9 +11,9 @@ about="Python Hesap Makinesi CLI(Command Line Interface / Komut Satırı Arayüz
 if command=="calc":
    print("calc> Girebileceğiniz işlemler: ")
    print("top\ncık\n\carp\nbol\nyuzde\nabout")
-   sayi1=input('{0} 1. sayiyi giriniz: '. format(command))
-   sayi2=input('{0} 2. sayiyi giriniz: '. format(command))
-   islem=input('{0} Gerçekleştirmek İstediğiniz İşlemi Giriniz: '. format(command))
+   sayi1=input('calc> 1. sayiyi giriniz: ')
+   sayi2=input('calc> 2. sayiyi giriniz: ')
+   islem=input('calc> Gerçekleştirmek İstediğiniz İşlemi Giriniz: ')
    top=float(sayi1)+float(sayi2)
    cık=float(sayi1)-float(sayi2)
    carp=float(sayi1)*float(sayi2)
@@ -29,22 +29,22 @@ if command=="calc":
        print("{0} / {1} = {2}". format(sayi1,sayi2,bol))
    elif islem=="yuzde":
        print("{0} % {1} = {2}". format(sayi1,sayi2,yuzde))
-   else:
-       print("Geçersiz İşlem")
-   if command=="about":
-      print(about)
-   elif command=="exit":
-        exit()
-   elif command=="help":
-        print("Python calc Help")
-        print("\n Command: calc , about , help , exit , git-address , web-site , ver , licence")
-   elif command=="git-address":
-        print("Github Link: https://github.com/LinuxUsersLinuxMint")
-   elif command=="web-site":
-        print("linuxuserslinuxmint.github.io")
-   elif command=="ver":
-        print("Sürüm: 0.2 (Son Güncellenme Tarihi 17 Eylül , 2023 , 14:43)")
-   elif command=="licence":
-        print("This Software is protected under the GPL2 license")
-   else:
-        print("Geçersiz Komut")
+else:
+     print("Geçersiz İşlem")
+if command=="about":
+     print(about)
+elif command=="exit":
+     exit()
+elif command=="help":
+     print("Python calc Help")
+     print("\n Command: calc , about , help , exit , git-address , web-site , ver , licence")
+elif command=="git-address":
+     print("Github Link: https://github.com/LinuxUsersLinuxMint")
+elif command=="web-site":
+     print("linuxuserslinuxmint.github.io")
+elif command=="ver":
+     print("Sürüm: 0.2 (Son Güncellenme Tarihi 17 Eylül , 2023 , 14:43)")
+elif command=="licence":
+     print("This Software is protected under the GPL2 license")
+else:
+     print("Geçersiz Komut")
