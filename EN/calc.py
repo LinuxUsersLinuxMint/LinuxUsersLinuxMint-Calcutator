@@ -43,16 +43,16 @@ if command=="calc":
    number1=float(input('calc> Enter The 1st Number: '))
    number2=float(input('calc> Enter The 2st Number: '))
    os.system("clear")
-if islem=="1": 
-     print("{0} + {1} = {2}". format(sayi1,sayi2,sayi1+sayi2))  
-elif islem=="2":
-     print("{0} - {1} = {2}". format(sayi1,sayi2,sayi1-sayi2))
-elif islem=="3":
-     print("{0} * {1} = {2}". format(sayi1,sayi2,sayi1*sayi2))
-elif islem=="4":
-     print("{0} / {1} = {2}". format(sayi1,sayi2,sayi1/sayi2))
-elif islem=="5":
-     print("{0} % {1} = {2}". format(sayi1,sayi2,sayi1%sayi2))
+if process=="1": 
+     print("{0} + {1} = {2}". format(number1,number2,number1+number2))  
+elif process=="2":
+     print("{0} - {1} = {2}". format(number1,number2,number1-number2))
+elif process=="3":
+     print("{0} * {1} = {2}". format(number1,number2,number1*number2))
+elif process=="4":
+     print("{0} / {1} = {2}". format(number1,number2,number1/number2))
+elif process=="5":
+     print("{0} % {1} = {2}". format(number1,number2,number1%number2))
 else:
      print("Geçersiz İşlem!")
      if command=="about":
