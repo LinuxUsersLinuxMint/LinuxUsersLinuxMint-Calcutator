@@ -2,6 +2,7 @@
 import os
 from colorama import Fore, init
 init(autoreset=True)
+islem=int(0)
 # Copyright© 2023 LinuxUsersLinuxMint
 # Python Calcutator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
 # Python Calcutator All Rights Reserved under the GPL(General Public License).
@@ -72,6 +73,5 @@ else:
           print("This Software is protected under the GPL2 license")
      elif command=="Thank":
           print("Python-Calcutator'u Kullandığınız için Teşekkür ederim. ")
-          # Thank You for Using Python-Calcutator.
      else:
           print("Geçersiz Komut!")

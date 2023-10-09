@@ -2,16 +2,17 @@
 import os
 from colorama import Fore, init
 init(autoreset=True)
+process=int(0)
 # Copyright© 2023 LinuxUsersLinuxMint
 # Python Calcutator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
 # Python Calcutator All Rights Reserved under the GPL(General Public License).
 # Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
 # A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
 print("******************************************************")
-print("*** Python-Calcutator 0.2.7 Programına Hoşgeldiniz ***")
-print("""*** Seçenekler:                                    ***
+print("*** Welcome to Python-Calcutator 0.2.7 Program     ***")
+print("""*** Options:                                       ***
 ***                                                ***
-*** Seçmek istediğiniz Komutu Giriniz...           ***
+*** Enter the Command you want to choose...        ***
 ***                                                ***
 *** 1. calc                                        ***
 *** 2. about                                       ***
@@ -24,22 +25,22 @@ print("""*** Seçenekler:                                    ***
 ******************************************************""")
 command=str(input(Fore.LIGHTBLUE_EX +'calc> '))
 os.system("clear")
-about="Python Hesap Makinesi CLI(Command Line Interface / Komut Satırı Arayüzü) LICENCE=GPL2"
-secilen_islem=str(Fore.LIGHTBLUE_EX+"None")
+about="Python Calcutator CLI(Command Line Interface / Komut Satırı Arayüzü) LICENCE=GPL2"
+selected_transaction=str(Fore.LIGHTBLUE_EX+"None")
 if command=="calc":
-   print("""*** Girebileceğiniz işlemler:     ***
-         Seçilen İşlem={0}""". format(secilen_islem))
+   print("""*** Transactions you can enter:     ***
+         Selected Transaction={0}""". format(selected_transaction))
    print("""
 1.   Addition
 2.   Subraction
 3.   Multiplication
 4.   Division
 5.   Percentage""")
-   process=str(input('calc> Seçmek İstediğiniz İşlemin Numarasını Giriniz: '))
-   secilen_islem=process
+   process=str(input('calc> Enter the Number of the Transaction You Want to Select: '))
+   selected_transaction=process
    os.system("clear")
-   print(Fore.LIGHTBLUE_EX+"""calc> Seçilen İşlem: 
-         Seçilen İşlem={0}""". format(secilen_islem))
+   print(Fore.LIGHTBLUE_EX+"""calc> Selected Transaction: 
+         Selected Transaction={0}""". format(selected_transaction))
    number1=float(input('calc> Enter The 1st Number: '))
    number2=float(input('calc> Enter The 2st Number: '))
    os.system("clear")
@@ -54,7 +55,7 @@ elif process=="4":
 elif process=="5":
      print("{0} % {1} = {2}". format(number1,number2,number1%number2))
 else:
-     print("Geçersiz İşlem!")
+     print("Invalid Process!")
      if command=="about":
           print(about)
      elif command=="exit":
@@ -67,7 +68,7 @@ else:
      elif command=="web-site":
           print("linuxuserslinuxmint.github.io")
      elif command=="ver":
-          print("Sürüm: 0.2.7 (Son Güncellenme Tarihi 6 Ekim , 2023 , 18:03)")
+          print("Version: 0.2.7 (Last Updated on October 6, 2023, 18:03)")
      elif command=="licence":
           print("This Software is protected under the GPL2 license")
      elif command=="Thank":
