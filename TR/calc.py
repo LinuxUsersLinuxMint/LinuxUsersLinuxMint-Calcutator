@@ -9,7 +9,7 @@ islem=int(0)
 # Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
 # A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
 print("******************************************************")
-print("*** Python-Calcutator 0.2.7 Programına Hoşgeldiniz ***")
+print("*** Python-Calcutator 0.2.9 Programına Hoşgeldiniz ***")
 print("""*** Seçenekler:                                    ***
 ***                                                ***
 *** Seçmek istediğiniz Komutu Giriniz...           ***
@@ -68,7 +68,7 @@ else:
      elif command=="web-site":
           print("linuxuserslinuxmint.github.io")
      elif command=="ver":
-          print("Sürüm: 0.2.7 (Son Güncellenme Tarihi 6 Ekim , 2023 , 18:03)")
+          print("Sürüm: 0.2.7 (Son Güncellenme Tarihi 28 Kasım , 2023 , 20:48)")
      elif command=="licence":
           print("This Software is protected under the GPL2 license")
      elif command=="Thank":

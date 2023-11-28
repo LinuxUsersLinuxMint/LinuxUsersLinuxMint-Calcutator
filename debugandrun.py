@@ -2,41 +2,40 @@
 # Bu Program Python-Calcutator'u derlemek için oluşturulmuştur.
 # This program was created to compile Python-Calcutator.
 
-import os
+import platform, os
 import time
 
-operating_sys=str(input('Operating System (Windows/Linux/MacOS): '))
+operating_sys = platform.system()
 
-if operating_sys=="Windows":
+if operating_sys =="Windows" or operating_sys == "windows" or operating_sys == "NT" or operating_sys == "nt":
     users_name=str(input('Enter The Users Name: '))
     ProgramPath_Ws=str(input('Version (EN/TR):   '))
     debug=os.system("cd {0}". format(ProgramPath_Ws))
     debugfile=os.system("pyinstaller --onefile calc.py")
-elif operating_sys=="Linux" or operating_sys=="MacOS":
+
+elif operating_sys =="Linux" or operating_sys == "linux" or operating_sys=="MacOS" or operating_sys == "macOS" or operating_sys == "darwin" or operating_sys == "Darwin":
     users_nm=str(input('Enter The Users Name: '))
     ver_name=str(input('Version (EN/TR): '))
     ProgramPath=str("/home/{0}/Desktop/Python-Calcutator-main/{1}/". format(users_nm,ver_name))
     debugPath=str(os.system("cd /home/{0}/Desktop/Python-Calcutator-main/{1}". format(users_nm,ver_name)))
     time.sleep(2)
-    print("[DEBUGANDRUN]: Program Derlenmeye Hazırlanıyor...")
+    print("[DEBUGANDRUN]: The Program is Preparing to Compile...")
     time.sleep(2)
-    print("[DEBUGANDRUN]: Program Bilgileri Kontrol Ediliyor...")
+    print("[DEBUGANDRUN]: Checking Program Information...")
     users_list=str(list(users_nm))
     ver_list=str(list(ver_name))
     ProgramPath_list=str(list(ProgramPath))
     debugPath_list=str(list(debugPath))
     time.sleep(2)
-    print("[DEBUGANDRUN]: Program Bilgileri Listeleniyor...\n{0}\n{1}\n{2}\n{3}". format(users_list,ver_list,ProgramPath_list,debugPath_list))
+    print("[DEBUGANDRUN]: Program Information Listed...\n{0}\n{1}\n{2}\n{3}". format(users_list,ver_list,ProgramPath_list,debugPath_list))
     time.sleep(2)
-    print("[DEBUGANDRUN] Program Derleyicisi Hazırlanıyor...")
-    global debugger,debugger_opt,debug_file
-    debugger=str('pyinstaller')
-    debugger_opt=str('--onefile')
-    debug_file=str("calc.py")
+    print("[DEBUGANDRUN] Program Compiler is Preparing...")
     time.sleep(2)
-    print("[DEBUGANDRUN]: Program Derleniyor...")
-    dbg=os.system("{0} {1} {2}". format(debugger,debugger_opt,debug_file))
+    print("[DEBUGANDRUN]: Compiling the Program...")
+    dbg=os.system("pyinstaller --onefile calc.py")
+    dbg
     time.sleep(2)
-    print("[DEBUGANDRUN]: Derleme İşlemi Bitmiştir...")
+    print("[DEBUGANDRUN]: Compilation Process is Completed...")
+
 else:
     print("Invalid Operating System...!")
