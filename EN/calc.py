@@ -3,13 +3,13 @@ import os
 from colorama import Fore, init
 init(autoreset=True)
 process=int(0)
-# Copyright© 2023-2024 LinuxUsersLinuxMint
-# Python Calcutator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
-# Python Calcutator All Rights Reserved under the GPL(General Public License).
-# Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
-# A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
+"""Copyright© 2023-2024 LinuxUsersLinuxMint
+Python Calcutator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
+Python Calcutator All Rights Reserved under the GPL(General Public License).
+Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
+A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint """
 print("******************************************************")
-print("*** Welcome to Python-Calcutator 0.2.9 Program     ***")
+print("*** Welcome to Python-Calcutator 0.3 Program       ***")
 print("""*** Options:                                       ***
 ***                                                ***
 *** Enter the Command you want to choose...        ***
@@ -25,7 +25,7 @@ print("""*** Options:                                       ***
 ******************************************************""")
 command=str(input(Fore.LIGHTBLUE_EX +'calc> '))
 os.system("clear")
-about="Python Calcutator CLI(Command Line Interface / Komut Satırı Arayüzü) LICENCE=GPL2"
+about="Python Calcutator CLI(Command Line Interface) LICENCE=GPL2"
 selected_transaction=str(Fore.LIGHTBLUE_EX+"None")
 if command=="calc":
    print("""*** Transactions you can enter:     ***
@@ -68,7 +68,7 @@ else:
      elif command=="web-site":
           print("linuxuserslinuxmint.github.io")
      elif command=="ver":
-          print("Version: 0.2.9 (Last Updated on November 28, 2023, 20:48)")
+          print("Version: 0.3 (Last Updated on May 8, 2024, 21:54)")
      elif command=="licence":
           print("This Software is protected under the GPL2 license")
      elif command=="Thank":

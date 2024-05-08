@@ -15,13 +15,13 @@ goto m
 :one
 echo Python-Calcutator-TR Version will be downloaded.
 pause
-copy INSTALL/TR/calc C:\Users\%users%\
+copy TR/calc C:\Users\%users%\
 pause
 exit
 goto m
 :two
 echo Python-Calcutator-EN Version will be downloaded.
 pause
-copy INSTALL/EN/calc C:\Users\%users%\
+copy EN/calc C:\Users\%users%\
 pause
 exit

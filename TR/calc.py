@@ -3,13 +3,13 @@ import os
 from colorama import Fore, init
 init(autoreset=True)
 islem=int(0)
-# Copyright© 2023-2024 LinuxUsersLinuxMint
-# Python Calcutator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
-# Python Calcutator All Rights Reserved under the GPL(General Public License).
-# Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
-# A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
+""" Copyright© 2023-2024 LinuxUsersLinuxMint
+Python Calcutator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
+Python Calcutator All Rights Reserved under the GPL(General Public License).
+Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
+A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint """
 print("******************************************************")
-print("*** Python-Calcutator 0.2.9 Programına Hoşgeldiniz ***")
+print("*** Python-Calcutator 0.3 Programına Hoşgeldiniz   ***")
 print("""*** Seçenekler:                                    ***
 ***                                                ***
 *** Seçmek istediğiniz Komutu Giriniz...           ***
@@ -25,7 +25,7 @@ print("""*** Seçenekler:                                    ***
 ******************************************************""")
 command=str(input(Fore.LIGHTBLUE_EX +'calc> '))
 os.system("clear")
-about="Python Hesap Makinesi CLI(Command Line Interface / Komut Satırı Arayüzü) LICENCE=GPL2"
+about="Python Hesap Makinesi CLI(Komut Satırı Arayüzü) LICENCE=GPL2"
 secilen_islem=str(Fore.LIGHTBLUE_EX+"None")
 if command=="calc":
    print("""*** Girebileceğiniz işlemler:     ***
@@ -68,9 +68,9 @@ else:
      elif command=="web-site":
           print("linuxuserslinuxmint.github.io")
      elif command=="ver":
-          print("Sürüm: 0.2.7 (Son Güncellenme Tarihi 28 Kasım , 2023 , 20:48)")
+          print("Sürüm: 0.3 (Son Güncellenme Tarihi 8 Mayıs , 2024 , 21:54)")
      elif command=="licence":
-          print("This Software is protected under the GPL2 license")
+          print("Bu Yazılım GPL2 lisansı kapsamında korunmaktadır.")
      elif command=="Thank":
           print("Python-Calcutator'u Kullandığınız için Teşekkür ederim. ")
      else:
