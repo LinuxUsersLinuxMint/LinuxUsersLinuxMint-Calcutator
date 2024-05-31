@@ -1,3 +1,0 @@
-NOT: Kodları istediğiniz gibi değiştirip kullanabilirsiniz. Kodlar açık kaynak kodludur.
-NOT2: Kodların Orjinal Hali LinuxUsersLinuxMint Tarafından Yazılmıştır.
-GİTHUB: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint
