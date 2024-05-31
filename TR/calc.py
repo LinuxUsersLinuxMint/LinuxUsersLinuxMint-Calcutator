@@ -78,7 +78,7 @@ elif command=="exit":
      else:
           error_msg()
 elif command=="help":
-     print("Python calc Help")
+     print("LinuxUsersLinuxMint-Calcutator Help")
      print("\n Command: calc , about , help , exit , git-address , web-site , ver , licence , Thank")
 elif command=="git-address":
      print("Github Link: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator")
