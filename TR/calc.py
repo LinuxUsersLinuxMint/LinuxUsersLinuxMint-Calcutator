@@ -85,7 +85,7 @@ elif command=="git-address":
 elif command=="web-site":
      print("linuxuserslinuxmint.github.io")
 elif command=="ver":
-     print("Sürüm: 0.3.1 (Son Güncellenme Tarihi 31 Mayıs , 2024 , 23:30)")
+     print("Sürüm: 0.3.3 (Son Güncellenme Tarihi 25 Ekim , 2024 , 23:39)")
 elif command=="licence":
      print("Bu Yazılım GPL2 lisansı kapsamında korunmaktadır.")
 elif command=="Thank":

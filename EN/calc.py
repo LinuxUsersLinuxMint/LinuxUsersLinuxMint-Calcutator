@@ -86,7 +86,7 @@ elif command=="git-address":
 elif command=="web-site":
      print("https://linuxuserslinuxmint.github.io")
 elif command=="ver":
-     print("Version: 0.3.1 (Last Updated on May 31, 2024, 23:30)")
+     print("Version: 0.3.3 (Last Updated on Oct 25, 2024, 23:39)")
 elif command=="licence":
      print("This Software is protected under the GPL2 license")
 elif command=="Thank":
