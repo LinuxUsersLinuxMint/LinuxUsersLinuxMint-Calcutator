@@ -37,7 +37,7 @@ if command=="calc":
 2.   Çıkarma
 3.   Çarpma
 4.   Bölme
-5.   Yüzde""")
+5.   Mod alma""")
    islem=str(input('calc> Seçmek İstediğiniz İşlemin Numarasını Giriniz: '))
    secilen_islem=islem
    os.system("clear")
@@ -47,7 +47,7 @@ if command=="calc":
    sayi2=float(input('calc> 2. sayiyi giriniz: '))
    os.system("clear")
 if islem=="1": 
-     addition(sayi1,sayi2,"Sonuç: ")  
+     Addition(sayi1,sayi2,"Sonuç: ")  
 elif islem=="2":
      Extraction(sayi1,sayi2,"Sonuç: ")
 elif islem=="3":
@@ -57,7 +57,7 @@ elif islem=="4":
 elif islem=="5":
      Percentage(sayi1,sayi2,"Sonuç: ")
 else:
-     error_msg()
+     error_msg(error_dialog)
 if command=="about":
      print(about)
 elif command=="exit":
@@ -76,7 +76,7 @@ elif command=="exit":
      elif exit_select == 3:
           exit()
      else:
-          error_msg()
+          error_msg(error_dialog)
 elif command=="help":
      print("LinuxUsersLinuxMint-Calcutator Help")
      print("\n Command: calc , about , help , exit , git-address , web-site , ver , licence , Thank")
@@ -85,10 +85,10 @@ elif command=="git-address":
 elif command=="web-site":
      print("linuxuserslinuxmint.github.io")
 elif command=="ver":
-     print("Sürüm: 0.3.3 (Son Güncellenme Tarihi 25 Ekim , 2024 , 23:39)")
+     print("Sürüm: 0.3.5 (Son Güncellenme Tarihi 1 Ocak , 2025 , 20:27)")
 elif command=="licence":
      print("Bu Yazılım GPL2 lisansı kapsamında korunmaktadır.")
 elif command=="Thank":
      print("Python-Calcutator'u Kullandığınız için Teşekkür ederim. ")
 else:
-     error_msg()
+     error_msg(error_dialog)

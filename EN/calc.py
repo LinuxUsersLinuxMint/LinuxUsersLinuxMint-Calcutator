@@ -11,7 +11,7 @@ Python Calcutator All Rights Reserved under the GPL(General Public License).
 Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator
 A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator """
 print("*********************************************************************")
-print("*** Welcome to LinuxUsersLinuxMint-Calcutator 0.3.3 Program       ***")
+print("*** Welcome to LinuxUsersLinuxMint-Calcutator 0.3.5 Program       ***")
 print("""*** Options:                                                      ***
 ***                                                               ***
 *** Enter the Command you want to choose...                       ***
@@ -57,7 +57,7 @@ elif process=="4":
 elif process=="5":
      Percentage(number1,number2,"Result: ")
 else:
-     error_msg()
+     error_msg(error_dialog)
 
 if command=="about":
      print(about)
@@ -77,7 +77,7 @@ elif command=="exit":
      elif exit_select == 3:
           exit()
      else:
-          error_msg()
+          error_msg(error_dialog)
 elif command=="help":
      print("LinuxUsersLinuxMint-Calcutator Help")
      print("\n Command: calc , about , help , exit , git-address , web-site , ver , licence , Thank")
@@ -86,10 +86,10 @@ elif command=="git-address":
 elif command=="web-site":
      print("https://linuxuserslinuxmint.github.io")
 elif command=="ver":
-     print("Version: 0.3.3 (Last Updated on Oct 25, 2024, 23:39)")
+     print("Version: 0.3.5 (Last Updated on Jan 1, 2025, 10:27)")
 elif command=="licence":
      print("This Software is protected under the GPL2 license")
 elif command=="Thank":
      print("Thank You for Using Python-Calcutator.")
 else:
-     error_msg()
+     error_msg(error_dialog)
