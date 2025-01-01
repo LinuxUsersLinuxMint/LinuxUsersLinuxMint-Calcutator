@@ -11,7 +11,7 @@ LinuxUsersLinuxMint Calcutator All Rights Reserved under the GPL(General Public 
 Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator
 A Copy of This Software is published on GITHUB To view: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator """
 print("*********************************************************************")
-print("*** LinuxUsersLinuxMint-Calcutator 0.3.1 Programına Hoşgeldiniz   ***")
+print("*** LinuxUsersLinuxMint-Calcutator 0.3.3 Programına Hoşgeldiniz   ***")
 print("""*** Seçenekler:                                                   ***
 ***                                                               ***
 *** Seçmek istediğiniz Komutu Giriniz...                          ***
