@@ -5,7 +5,7 @@ from Basic_Maths import *
 init(autoreset=True)
 process=int(0)
 error_dialog = "Invalid Process/Command!"
-"""Copyright© 2023-2024 LinuxUsersLinuxMint
+"""Copyright© 2023-2025 LinuxUsersLinuxMint
 Python Calcutator Tüm Hakları GPL(Genel Kamu Lisansı) altında korunmaktadır.
 Python Calcutator All Rights Reserved under the GPL(General Public License).
 Bu Yazılımın Bir Kopyası GİTHUB da yayınlanmaktadır Görüntülemek için: https://github.com/LinuxUsersLinuxMint/LinuxUsersLinuxMint-Calcutator
